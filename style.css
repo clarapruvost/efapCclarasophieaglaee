@@ -1,0 +1,84 @@
+h1, h2{
+	color: #FF6969;
+	font-family: 'Amatic SC', cursive;;
+
+
+}
+
+
+h2{color: #FF6969;}
+
+body {text-align: center;
+	font-family: arial;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FFD3B0'/%3E%3Cstop offset='1' stop-color='%23FFF9DE'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FF6969' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF6969' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover; 
+}
+
+ul	{text-align: left}
+
+p {
+	font-size: 16px;
+}
+
+a{color: #FF6969}
+
+.square {
+	background: #FFF9DE;
+	border: dashed 3px purple;
+	border-radius: 30px;
+	padding: 50px;
+	margin:50px;
+	box-shadow:10px 10px 10px grey;
+}
+
+.avatar { 
+	object-fit: cover;
+	border-radius: 50%;
+	height: 250PX;
+	WIDTH: 250PX ;
+	box-shadow: 10px 10px 10px grey 
+}
+
+.box1 {
+	background: blue;
+	border: solid 5px red;
+	height: 200px;
+width: 200px;
+}
+
+.box2 {
+	background: yellow;
+	border: solid 5px red;
+	height: 200px;
+width: 200px;
+	}
+
+	.box3 {
+		background: green;
+		border: solid 5px red;
+		height: 200px;
+	width: 200px;
+	}
+
+
+.boxblack {
+	background: black;
+	border: solid 5px red;
+	height: 1000px;
+		width: 1000px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+.map-infos {
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+
+.text-infos {
+	width: 500px;
+}
+
